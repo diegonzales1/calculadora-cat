@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+
+body{
+    background-image: url(gatoCalc.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.calc {
+    width: 50%;
+    height: 100%;
+    float: left;
+
+    font-size: 35px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 8px 20px 20px 20px;
+    align-items: center;
+    text-align: center;
+    float: left;
+}
+
+#historico {
+    width: 50%;
+    height: 100%;
+    float: right;
+
+    font-size: 35px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 8px 20px 20px 20px;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    width: 500px;
+}
+
+
+#resp{
+    width: 300px;
+    height: 40px;
+    font-size: 35px;
+    border-style: double;
+    border-color: black;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-bottom: 10px;
+    height: 90px;
+    width: 60px;
+    font-size: 25px;
+}
+
+.rodape{
+    width: 50px;
+    height: 100%;
+    background-color:black;
+    color: white;
+    position: absolute;
+    left: 0;
+    writing-mode: vertical-lr; 
+
+    background-image: url(https://media.giphy.com/media/UoLXchjEaG7AKu3PLG/giphy.gif);
+    background-position: top ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.name{
+    position: absolute;
+    bottom: 0;
+}
